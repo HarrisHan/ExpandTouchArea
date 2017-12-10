@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "UIControl+ExpandTouchArea.h"
 
 @interface ViewController ()
 
@@ -16,7 +17,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    UIButton *btn = [UIButton new];
+    
+    [btn expandTouchAreaWithTop:10 left:10 bottom:10 right:10];
 }
 
 

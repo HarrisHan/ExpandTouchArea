@@ -26,6 +26,8 @@
 		6FC88CBF1FDD2CA600BB49E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6FC88CC11FDD2CA600BB49E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6FC88CC21FDD2CA600BB49E9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6FC88CCA1FDD2D4900BB49E9 /* UIControl+ExpandTouchArea.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIControl+ExpandTouchArea.h"; sourceTree = "<group>"; };
+		6FC88CCB1FDD2D4900BB49E9 /* UIControl+ExpandTouchArea.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIControl+ExpandTouchArea.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 		6FC88CB21FDD2CA600BB49E9 /* ExpandTouchArea */ = {
 			isa = PBXGroup;
 			children = (
+				6FC88CC91FDD2D4900BB49E9 /* UIControl+ExpandTouchArea */,
 				6FC88CB31FDD2CA600BB49E9 /* AppDelegate.h */,
 				6FC88CB41FDD2CA600BB49E9 /* AppDelegate.m */,
 				6FC88CB61FDD2CA600BB49E9 /* ViewController.h */,
@@ -69,6 +72,15 @@
 				6FC88CC21FDD2CA600BB49E9 /* main.m */,
 			);
 			path = ExpandTouchArea;
+			sourceTree = "<group>";
+		};
+		6FC88CC91FDD2D4900BB49E9 /* UIControl+ExpandTouchArea */ = {
+			isa = PBXGroup;
+			children = (
+				6FC88CCA1FDD2D4900BB49E9 /* UIControl+ExpandTouchArea.h */,
+				6FC88CCB1FDD2D4900BB49E9 /* UIControl+ExpandTouchArea.m */,
+			);
+			path = "UIControl+ExpandTouchArea";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
